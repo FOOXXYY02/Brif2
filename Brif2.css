@@ -1,0 +1,74 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FAFAFA;
+    font: 12pt "Tahoma";
+  }
+
+
+  
+
+
+  .flex-container{
+    display: flex;
+    background-color: #f7941d;
+    margin: 20px;
+    justify-content: space-around;
+  }
+  .flex-container>div{
+    color: white;
+    padding: 40px;
+    background-color: #c597ec;
+    margin: 10px;
+    border: 1px solid grey;
+  }
+
+.minute {
+
+width: 20%;
+
+
+}
+
+
+
+
+
+
+
+.milieu {
+
+justify-content: space-between;
+display: flex;
+
+}
+
+.escalier {
+
+width: 25%;
+height: 20%;
+
+}
+
+.paris {
+
+margin-left: 0%;
+
+}
+
+.crillon {
+
+white-space: pre-line;
+border:0px solid black;
+width:320px
+
+}
+
+.athene {
+margin-top: auto;
+margin-left: 30%;
+width: 70%;
+
+}
