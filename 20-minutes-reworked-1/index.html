@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>20 Minutes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="./assets/css/app.css"/>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+
+  </head>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+    * {
+      font-family: "Ubuntu", sans-serif;
+    }
+    .main {
+      padding: 2rem;
+      max-width: 75rem;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .header {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+    .logo {
+      width: 200px;
+      height: 200px;
+    }
+    .idf { 
+      background-color: #2d4490;
+      border-color: white;
+      color: white;
+      width: 200px;
+      display: flex;
+      justify-content: center;
+      padding: 0.1rem;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+    .button {
+      background-color: #2d4490;
+      border-color: white;
+      color: white;
+      display: flex;
+      justify-content: center;
+      padding: 0.1rem;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+    .line {
+      margin-top: 0.25rem;
+      margin-bottom: 0.5rem;
+      width: 100%;
+      height: 0.1px;
+      background-color: black;
+    }
+    .section {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      margin-bottom: 0rem;
+      font-family: "Montserrat";
+    }
+
+    .spacing {
+      margin-top: 0.15rem;
+      margin-bottom: 0.15rem;
+    }
+  
+    .vegan {
+      width: 300px;
+      height: 200px;
+    }
+    .head {
+      color: #2d4490;
+      font-weight: 700;
+      margin-block-start: 0em;
+      margin-block-end: 0em;
+    }
+    .paragraph {
+      font-weight: 500;
+      font-size: 1.80rem;
+      line-height: 1.75rem;
+    }
+
+    .paragraph2 {
+      font-weight: 500;
+      font-size: 1.30rem;
+      line-height: 1.40rem;
+    }
+
+    p {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    } */
+    hr  {
+      display: flex;
+      justify-content: center;
+      color: rgb(11, 10, 10);
+      width: 500px;
+    }
+
+    .pSix {
+      font-weight: 600;
+      color: #2d4490;
+    }
+    .content {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 2fr));
+      margin-top: 0.5rem;
+    }
+    .art {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 350px;
+    }
+    .content-art {
+      margin-top: 0.25rem;
+      margin-bottom: 0.25rem;
+    }
+    .enter {
+      width: 340px;
+      height: 200px;
+    }
+    .footer {
+      width: 1205px;
+    }
+    .onBottom {
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
+    }
+    .film {
+      background: fixed;
+      width: 615px;
+      height: 780px;
+      object-fit: cover;
+    }
+
+    .blockdroit{
+      display: flex;
+      flex-direction: column;
+      background-image: url("assets/images/film.webp");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      grid-column: 2 / 4;
+      justify-content: flex-end;
+    }
+
+    .blockdroit .textfilm {
+      display: flex;
+      color: aliceblue;
+      margin-bottom: -0px;
+      font-size: 4.5rem;
+    }
+
+    .textfilm2 {
+      display: flex;
+      color: aliceblue;
+      font-size: 1.85rem !important;
+      font-weight : bold
+    }
+
+    .fondu {
+
+      display: flex;
+      color: rgb(142, 142, 142);
+      flex-direction: column;
+      justify-content: center;
+      width: 350px;
+
+    }
+
+
+  </style>
+
+
+  <body>
+    <main class="main">
+      <header class="header">
+        <div class="spacing">
+          <img class="logo" src="./assets/images/20minute.png" />
+          <div class="idf">Paris-idf</div>
+        </div>
+        <div><img class="vegan" src="./assets/images/vegan.webp" /></div>
+        <div>
+          <div class="button">20 minutes avec</div>
+          <h1 class="head">Claire Vallée</h1>
+          <p class="paragraph">
+            La cheffe végane <br />
+            étoilée veut << imaginer<br />
+            ce que sera la cuisine de l'avenir >> <br />
+            <span class="pSix">P.6</span>
+          </p>
+        </div>
+      </header>
+      <hr>
+      <div class="line" />
+      <br />
+      <section class="section">
+        <div>Vendredi 14 Avril 2023</div>
+        <div>20minute.fr</div>
+        <div>N°3832</div>
+      </section>
+      <section class="content">
+        <div class="art">
+          <div class="content-art">
+            <img class="enter" src="./assets/images/entree.jpg" />
+          </div>
+          <div class="content-art">
+            <h1 class="head">Paris (8)</h1>
+            <p class="paragraph2"> Des jeunes inscrit <br>
+            à Pôle emploi poussent<br>
+            les portes du crillon <span class="pSix">P.3</span></p>
+          </div>
+          <hr class="art">
+          <div class="content-art">
+            <h1 class="head"> RÉFORME DES RETRAITES</h1>
+            <p class="paragraph2"> La mobilisation<br>
+            à la française, un art<br>
+            qui séduit nos voisin <span class="pSix">P.4</span></p>
+          </div>
+          <hr class="fondu">
+          <div class="content-art">
+            <img class="enter" src="./assets/images/chameau.jpg" />
+          </div>
+          <div class="content-art">
+            <h1 class="head">TÉLÉVISION</h1>
+            <p class="paragraph2">Bas les masques<br>
+            sur les costumes<br>
+          de << Mask Singer >> <span class="pSix">P.10</span></p>
+            
+            
+          </div>
+        </div>
+        <div class="blockdroit">
+          <h2 class="textfilm">VOIR<br>
+            ATHÈNES<br>
+            ET MÛRIR</h2>
+            <p class="textfilm2">Vingt ans après << L'Auberge espagnole >> <br>
+            Cédric Klapisch revient avec << Salade grecque >><br>
+            et fait le lien entre deux génération P.8 </p>
+        </div>
+      </section>
+      <div class="line" >
+      <br />
+      <footer class="onBottom">
+        <img class="footer" src="./assets/images/bas.png" />
+      </footer>
+    </main>
+  </body>
+</html>
